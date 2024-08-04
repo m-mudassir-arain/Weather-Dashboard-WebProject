@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">Live Weather</h3>
+            <div>
+                <h1 class="temp">---&#176;</h1>
+                <div class="city-time">
+                    <h1 class="name">------</h1>
+                    <small>
+                        <span class="time">00:00</span>
+                        
+                        <span class="date">
+                            -- --- ----
+                        </span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img class="icon" src="" alt="">
+                    <span class="condition">------</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Location...">
+                <button type="submit" class="submit">
+                    <img src="images/search-icon.png" alt="">
+                </button>
+            </form>
+
+            <ul class="cities">
+                <li class="city">New York</li>
+                <li class="city">Paris</li>
+                <li class="city">California</li>
+                <li class="city">Tokyo</li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">9km/h</span>
+                </li>
+            </ul>
+
+            <div class="forecast-container">
+                <h4>Weather Forecast</h4>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
