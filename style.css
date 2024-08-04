@@ -183,6 +183,13 @@ h1, h3{
     font-size: 1.2em;
     margin-right: 10px;
 }
+footer{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 1440px) {
     .container{
