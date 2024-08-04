@@ -250,28 +250,20 @@ h1, h3{
         width: 98%;
     }
 }
-/* @media screen and (max-width: 575px) {
-    html{
-        font-size: 12px;
+@media screen and (max-width: 575px) {
+    .container h1{
+        font-size: 4em;
+    }
+    .city-time{
+        width: 100px;
+    }
+    .city-time .name{
+        font-size: 1.7em;
+    }
+    .weather{
+        width: 100px;
+    }
+    .weather img{
+        margin: 0;
     }
 }
-@media screen and (max-width: 445px) {
-    html{
-        width: 105vw;
-    }
-}
-@media screen and (max-width: 425px) {
-    html{
-        width: 100vw;
-    }
-}
-@media screen and (max-width: 320px) {
-    html{
-        width: 138vw;
-    }
-}
-@media screen and (min-width: 375px) {
-    html{
-        width: 140vw;
-    }
-} */
